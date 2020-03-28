@@ -83,8 +83,9 @@ div {
   div {
     .copyButton {
       button {
+        visibility: hidden;
         img {
-          width: 20px;
+          visibility: hidden;
         }
       }
     }
