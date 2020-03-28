@@ -79,13 +79,12 @@ div {
 
 @media screen and (max-width: 540px) {
 
-
   div {
     .copyButton {
       button {
-        visibility: hidden;
-        img {
-          visibility: hidden;
+        display: none;
+        image{
+          display: none;
         }
       }
     }
