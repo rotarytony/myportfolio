@@ -1,0 +1,125 @@
+h1 {
+  color: #00A8E8;
+}
+
+div {
+  .email {
+    display: inline;
+
+    h2 {
+      margin-right: 20px;
+      float: left;
+    }
+  }
+
+  .copyButton {
+    display: inline;
+    float: right;
+
+    button {
+      background-color: transparent;
+      background-repeat: no-repeat;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      outline: none;
+
+      img {
+        width: 35px;
+        -khtml-user-select: none;
+        -o-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+
+        &:hover {
+          opacity: 50%;
+        }
+
+        &:active {
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}
+
+.social-media{
+  display: inline;
+
+  button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin: 50px 50px 50px 50px;
+
+    img {
+      width: 100px;
+      -khtml-user-select: none;
+      -o-user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+
+
+      &:hover {
+        opacity: 50%;
+      }
+
+      &:active {
+        pointer-events: none;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 540px) {
+
+
+  div {
+    .copyButton {
+      button {
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
+
+  .social-media{
+    button {
+      margin: 20px 20px 20px 20px;
+
+      img {
+        width: 60px;
+      }
+    }
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 1300px) {
+  div {
+    .copyButton {
+      button {
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
+
+  .social-media{
+    button {
+      margin: 20px 20px 20px 20px;
+
+      img {
+        width: 60px;
+      }
+    }
+  }
+}
